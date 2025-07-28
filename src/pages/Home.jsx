@@ -7,7 +7,7 @@ import A4 from "../assets/A4.jpg"
 export default function Home() {
   return (
     <>
-      <section className="relative pt-19 md:pt-10 min-h-screen flex flex-col items-center justify-center px-4 text-center overflow-hidden bg-[#F8F3EC] text-[#3C2C21]">
+      <section className="relative pt-10 min-h-screen flex flex-col items-center justify-center px-4 text-center overflow-hidden bg-[#F8F3EC] text-[#3C2C21]">
         {/* Spotlight effect */}
         <div className="absolute inset-0 bg-radial-light pointer-events-none z-0" />
 

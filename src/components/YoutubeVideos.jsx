@@ -1,5 +1,5 @@
 import React from "react";
-
+import FadeInSection from "./FadeInSeaction";
 const YoutubeVideos = () => {
   const videos = [
     "https://www.facebook.com/watch/?v=1133140558259376",
@@ -30,6 +30,8 @@ const YoutubeVideos = () => {
         {videos.map((video, index) => (
           <div key={index} className="relative overflow-hidden rounded shadow-lg">
             {/* Maintain 16:9 aspect ratio */}
+            <FadeInSection>
+
             <div className="relative w-full pb-[150%]">
               <iframe
                 src={`https://www.facebook.com/plugins/video.php?href=${encodeURIComponent(
@@ -41,6 +43,7 @@ const YoutubeVideos = () => {
                 allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
               ></iframe>
             </div>
+            </FadeInSection>
           </div>
         ))}
       </div>

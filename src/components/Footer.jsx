@@ -92,7 +92,7 @@ const Footer = () => {
           <span className="text-sm text-[#7A6E5B]">
             © 2025 Aaditya Ranavaya. All Rights Reserved.
           </span>
-
+<br className="md:hidden" />
            <span className="text-sm text-[#7A6E5B]">
            DEVELOPED AND MANAGE BY : <a className="text-blue-400 hover:text-blue-600" href="http://sk-itpro.com">SK-ITPro</a>
           </span>
