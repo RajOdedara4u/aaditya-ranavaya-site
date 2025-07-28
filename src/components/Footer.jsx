@@ -90,7 +90,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="sm:flex sm:items-center sm:justify-between">
           <span className="text-sm text-[#7A6E5B]">
-            © 2025 Aaditya Ranavaya. All Rights Reserved.
+            © 2025 Aaditya Ranavaya. All Rights Reserved
           </span>
 <br className="md:hidden" />
            <span className="text-sm text-[#7A6E5B]">
