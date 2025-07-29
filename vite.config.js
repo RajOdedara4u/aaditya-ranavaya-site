@@ -10,7 +10,6 @@ export default defineConfig({
     primary: '#9C4231',
     secondary: '#C9A03C',
     accent: '#E37028',
-    dark: '#5C3A2E',
     muted: '#6E5C3B',
     bgBase: '#F8F3EC',
     textDark: '#3C2C21',

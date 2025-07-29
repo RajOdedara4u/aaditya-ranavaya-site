@@ -15,7 +15,7 @@ export default function Gallery() {
   const [selectedImage, setSelectedImage] = useState(null);
 
   return (
-    <div className="max-w-6xl mx-auto px-4 py-16">
+    <div className="max-w-full px-4 py-16 bg-[#F8F3EC]">
       {/* Title */}
       <h2 className="text-4xl font-bold text-center mb-10 text-[#9C4231]">
         Gallery
