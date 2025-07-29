@@ -9,7 +9,8 @@ import A3 from "../assets/A3.jpg"
 const IntroSection = () => {
   return (
     
-    <div className="px-4 bg-[#F8F3EC] text-[#3C2C21] py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+   
+   <div className="w-full px-4 bg-[#F8F3EC] text-[#3C2C21] py-16 md:px-12 lg:px-16 xl:px-24">
     <FadeInSection>
       <div className="grid gap-10 lg:grid-cols-2">
         <div className="flex flex-col justify-center md:pr-8 xl:pr-0 lg:max-w-lg">

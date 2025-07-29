@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#F8F3EC] text-[#5C3A2E] border-t border-[#E0D6C2]">
+    <footer className="bg-[#F8F3EC] max-w-screen overflow-hidden text-[#5C3A2E] border-t border-[#E0D6C2]">
       <div className="mx-auto w-full max-w-screen-xl p-6 lg:pt-10 ">
         <div className="md:flex md:justify-between">
           {/* Logo */}

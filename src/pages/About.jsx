@@ -6,7 +6,7 @@ import IntroSection from '../components/IntroSection';
 
 export default function About() {
   return (
-    <div className="mx-auto bg-[#F8F3EC] max-w-screen-xl px-4 py-10 sm:px-6 lg:px-8">
+   <div className="w-full bg-[#F8F3EC] lg:h-[90vh] flex justify-center items-center flex-col px-4 py-10 sm:px-6 lg:px-8">
       <IntroSection />
 
       <div className="grid grid-cols-1 gap-10 md:grid-cols-2 md:items-start md:gap-16">
