@@ -2,27 +2,24 @@
 
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import A7 from "../assets/A7.jpg"
-import A6 from "../assets/A6.jpg"
-import A5 from "../assets/A5.jpg"
-const images = [
-  A6,
-  A5,
- A7
-];
+import A7 from "../assets/A7.jpg";
+import A6 from "../assets/A6.jpg";
+import A5 from "../assets/A5.jpg";
+
+const images = [A6, A5, A7];
 
 export default function Gallery() {
   const [selectedImage, setSelectedImage] = useState(null);
 
   return (
-    <div className="max-w-full lg:h-[90vh] flex justify-center items-center flex-col px-4 py-16 bg-[#F8F3EC]">
+    <div className="min-h-screen pt-24 pb-20 bg-[#F8F3EC] flex flex-col items-center justify-start px-4">
       {/* Title */}
       <h2 className="text-4xl font-bold text-center mb-10 text-[#9C4231]">
         Gallery
       </h2>
 
       {/* Image Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 w-full max-w-6xl">
         {images.map((src, i) => (
           <motion.div
             key={i}
@@ -36,7 +33,6 @@ export default function Gallery() {
               alt={`Performance ${i + 1}`}
               className="w-full h-64 object-cover object-top rounded-2xl transform group-hover:scale-110 transition-transform duration-500"
             />
-            {/* Overlay Effect */}
             <div className="absolute inset-0 bg-black bg-opacity-20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
           </motion.div>
         ))}
@@ -64,7 +60,7 @@ export default function Gallery() {
         )}
       </AnimatePresence>
 
-      {/* Social Media */}
+      {/* Social Media Links */}
       <div className="mt-16 text-center">
         <h3 className="text-2xl font-semibold mb-4 text-[#E37028]">
           Follow on Social Media

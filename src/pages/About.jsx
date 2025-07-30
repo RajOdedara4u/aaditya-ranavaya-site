@@ -6,9 +6,10 @@ import IntroSection from '../components/IntroSection';
 
 export default function About() {
   return (
-   <div className="w-full bg-[#F8F3EC] lg:h-[90vh] flex justify-center items-center flex-col px-4 py-10 sm:px-6 lg:px-8">
-      <IntroSection />
+<>
 
+   <div className="w-full bg-[#F8F3EC] flex justify-center items-center flex-col px-4 py-4 sm:px-6 lg:px-8 lg:py-[5vh]">
+<IntroSection />
       <div className="grid grid-cols-1 gap-10 md:grid-cols-2 md:items-start md:gap-16">
         {/* Text Content */}
         <div>
@@ -73,5 +74,7 @@ export default function About() {
         </div>
       </div>
     </div>
+</>
+
   );
 }

@@ -2,6 +2,8 @@
 
 import React from "react";
 import { FaInstagram, FaWhatsapp } from "react-icons/fa";
+import WhatsAppButton from "../components/WhatsAppButton";
+import InstagramButton from "../components/InstagramButton";
 
 export default function Contact() {
   return (
@@ -14,26 +16,10 @@ export default function Contact() {
 
         <div className="flex flex-col sm:flex-row justify-center gap-6">
           {/* WhatsApp Button */}
-          <a
-            href="https://wa.me/919909215664"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center justify-center gap-2 bg-green-500 text-white px-6 py-3 rounded-full shadow-md hover:bg-green-600 transition"
-          >
-            <FaWhatsapp className="text-2xl" />
-            WhatsApp
-          </a>
+        <WhatsAppButton />
 
           {/* Instagram Button */}
-          <a
-            href="https://www.instagram.com/adityamerofficial"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center justify-center gap-2 bg-pink-500 text-white px-6 py-3 rounded-full shadow-md hover:bg-pink-600 transition"
-          >
-            <FaInstagram className="text-2xl" />
-            Instagram
-          </a>
+         <InstagramButton />
         </div>
       </div>
     </section>

@@ -21,7 +21,7 @@ const mentors = [
 
 export default function Testimonials() {
   return (
-    <section className="bg-[#F8F3EC] py-16 lg:h-[90vh] flex justify-center items-center flex-col">
+   <section className="bg-[#F8F3EC] min-h-screen pt-16 md:pt-6 flex justify-center items-center flex-col">
       <div className="max-w-5xl mx-auto px-4">
         {/* Heading */}
         <motion.h2

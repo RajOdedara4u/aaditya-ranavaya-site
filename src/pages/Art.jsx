@@ -4,23 +4,23 @@ import { motion } from "framer-motion";
 
 const works = [
   {
- title: "Live Performance 1",
+    title: "Live Performance 1",
     description:
       "Aaditya Ranavaya performing traditional Charani and folk literature on stage.",
     videoUrl: "https://www.youtube.com/embed/v-Lvo0hRpvc"
   },
   {
-     title: "Live Performance 2",
+    title: "Live Performance 2",
     description:
       "Another live stage presentation showcasing Aaditya's folk artistry.",
-    videoUrl: "https://www.youtube.com/embed/2FNidodwVZI" 
+    videoUrl: "https://www.youtube.com/embed/2FNidodwVZI"
   }
 ];
 
 export default function Art() {
   return (
-    <section className="bg-[#F8F3EC] py-16 lg:h-[90vh] flex justify-center items-center flex-col">
-      <div className="max-w-6xl mx-auto px-4">
+    <section className="bg-[#F8F3EC] min-h-screen pt-24 pb-16 flex items-center justify-center">
+      <div className="max-w-6xl mx-auto px-4 w-full">
         {/* Heading */}
         <motion.h2
           className="text-4xl md:text-5xl font-bold text-center text-[#3C2C21] mb-12"
@@ -53,7 +53,7 @@ export default function Art() {
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
-                  className="w-full h-full rounded-lg"
+                  className="w-full h-full"
                 ></iframe>
               </div>
             </motion.div>
